@@ -3,8 +3,8 @@
 # SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
 # IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
 # SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
-# Start of session at: Thu Jan 15 15:12:05 2026
-# Process ID         : 18316
+# Start of session at: Thu Jan 15 15:39:59 2026
+# Process ID         : 5672
 # Current directory  : D:/MyProjects/dachuang/show_time/show_time.runs/synth_1
 # Command line       : vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
 # Log file           : D:/MyProjects/dachuang/show_time/show_time.runs/synth_1/top.vds
@@ -19,6 +19,6 @@
 # Host memory        : 33394 MB
 # Swap memory        : 21474 MB
 # Total Virtual      : 54869 MB
-# Available Virtual  : 31847 MB
+# Available Virtual  : 31919 MB
 #-----------------------------------------------------------
 source top.tcl -notrace

@@ -3,8 +3,8 @@
 # SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
 # IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
 # SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
-# Start of session at: Thu Jan 15 15:12:05 2026
-# Process ID         : 18316
+# Start of session at: Thu Jan 15 15:39:59 2026
+# Process ID         : 5672
 # Current directory  : D:/MyProjects/dachuang/show_time/show_time.runs/synth_1
 # Command line       : vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
 # Log file           : D:/MyProjects/dachuang/show_time/show_time.runs/synth_1/top.vds
@@ -19,7 +19,7 @@
 # Host memory        : 33394 MB
 # Swap memory        : 21474 MB
 # Total Virtual      : 54869 MB
-# Available Virtual  : 31847 MB
+# Available Virtual  : 31919 MB
 #-----------------------------------------------------------
 source top.tcl -notrace
 Command: read_checkpoint -auto_incremental -incremental D:/MyProjects/dachuang/show_time/show_time.srcs/utils_1/imports/synth_1/top.dcp
@@ -34,54 +34,54 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 6628
+INFO: [Synth 8-7075] Helper process launched with PID 24388
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1333.309 ; gain = 542.398
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1332.293 ; gain = 541.320
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'top' [D:/MyProjects/dachuang/数码管时钟/数码管时钟.srcs/sources_1/new/top.sv:23]
-INFO: [Synth 8-6157] synthesizing module 'scaler' [D:/MyProjects/dachuang/数码管时钟/数码管时钟.srcs/sources_1/new/top.sv:52]
+INFO: [Synth 8-6157] synthesizing module 'top' [D:/MyProjects/dachuang/show_time/show_time.srcs/sources_1/new/top.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'scaler' [D:/MyProjects/dachuang/show_time/show_time.srcs/sources_1/new/top.sv:52]
 	Parameter N bound to: 10000 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'scaler' (0#1) [D:/MyProjects/dachuang/数码管时钟/数码管时钟.srcs/sources_1/new/top.sv:52]
-INFO: [Synth 8-6157] synthesizing module 'scaler__parameterized0' [D:/MyProjects/dachuang/数码管时钟/数码管时钟.srcs/sources_1/new/top.sv:52]
+INFO: [Synth 8-6155] done synthesizing module 'scaler' (0#1) [D:/MyProjects/dachuang/show_time/show_time.srcs/sources_1/new/top.sv:52]
+INFO: [Synth 8-6157] synthesizing module 'scaler__parameterized0' [D:/MyProjects/dachuang/show_time/show_time.srcs/sources_1/new/top.sv:52]
 	Parameter N bound to: 50 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'scaler__parameterized0' (0#1) [D:/MyProjects/dachuang/数码管时钟/数码管时钟.srcs/sources_1/new/top.sv:52]
-INFO: [Synth 8-6157] synthesizing module 'scaler__parameterized1' [D:/MyProjects/dachuang/数码管时钟/数码管时钟.srcs/sources_1/new/top.sv:52]
+INFO: [Synth 8-6155] done synthesizing module 'scaler__parameterized0' (0#1) [D:/MyProjects/dachuang/show_time/show_time.srcs/sources_1/new/top.sv:52]
+INFO: [Synth 8-6157] synthesizing module 'scaler__parameterized1' [D:/MyProjects/dachuang/show_time/show_time.srcs/sources_1/new/top.sv:52]
 	Parameter N bound to: 100 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'scaler__parameterized1' (0#1) [D:/MyProjects/dachuang/数码管时钟/数码管时钟.srcs/sources_1/new/top.sv:52]
-INFO: [Synth 8-6157] synthesizing module 'scaler__parameterized2' [D:/MyProjects/dachuang/数码管时钟/数码管时钟.srcs/sources_1/new/top.sv:52]
+INFO: [Synth 8-6155] done synthesizing module 'scaler__parameterized1' (0#1) [D:/MyProjects/dachuang/show_time/show_time.srcs/sources_1/new/top.sv:52]
+INFO: [Synth 8-6157] synthesizing module 'scaler__parameterized2' [D:/MyProjects/dachuang/show_time/show_time.srcs/sources_1/new/top.sv:52]
 	Parameter N bound to: 60 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'scaler__parameterized2' (0#1) [D:/MyProjects/dachuang/数码管时钟/数码管时钟.srcs/sources_1/new/top.sv:52]
-INFO: [Synth 8-6157] synthesizing module 'counter' [D:/MyProjects/dachuang/数码管时钟/数码管时钟.srcs/sources_1/new/top.sv:77]
+INFO: [Synth 8-6155] done synthesizing module 'scaler__parameterized2' (0#1) [D:/MyProjects/dachuang/show_time/show_time.srcs/sources_1/new/top.sv:52]
+INFO: [Synth 8-6157] synthesizing module 'counter' [D:/MyProjects/dachuang/show_time/show_time.srcs/sources_1/new/top.sv:77]
 	Parameter N bound to: 42 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'counter' (0#1) [D:/MyProjects/dachuang/数码管时钟/数码管时钟.srcs/sources_1/new/top.sv:77]
-INFO: [Synth 8-6157] synthesizing module 'counter__parameterized0' [D:/MyProjects/dachuang/数码管时钟/数码管时钟.srcs/sources_1/new/top.sv:77]
+INFO: [Synth 8-6155] done synthesizing module 'counter' (0#1) [D:/MyProjects/dachuang/show_time/show_time.srcs/sources_1/new/top.sv:77]
+INFO: [Synth 8-6157] synthesizing module 'counter__parameterized0' [D:/MyProjects/dachuang/show_time/show_time.srcs/sources_1/new/top.sv:77]
 	Parameter N bound to: 100 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'counter__parameterized0' (0#1) [D:/MyProjects/dachuang/数码管时钟/数码管时钟.srcs/sources_1/new/top.sv:77]
-INFO: [Synth 8-6157] synthesizing module 'counter__parameterized1' [D:/MyProjects/dachuang/数码管时钟/数码管时钟.srcs/sources_1/new/top.sv:77]
+INFO: [Synth 8-6155] done synthesizing module 'counter__parameterized0' (0#1) [D:/MyProjects/dachuang/show_time/show_time.srcs/sources_1/new/top.sv:77]
+INFO: [Synth 8-6157] synthesizing module 'counter__parameterized1' [D:/MyProjects/dachuang/show_time/show_time.srcs/sources_1/new/top.sv:77]
 	Parameter N bound to: 60 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'counter__parameterized1' (0#1) [D:/MyProjects/dachuang/数码管时钟/数码管时钟.srcs/sources_1/new/top.sv:77]
-INFO: [Synth 8-6157] synthesizing module 'counter__parameterized2' [D:/MyProjects/dachuang/数码管时钟/数码管时钟.srcs/sources_1/new/top.sv:77]
+INFO: [Synth 8-6155] done synthesizing module 'counter__parameterized1' (0#1) [D:/MyProjects/dachuang/show_time/show_time.srcs/sources_1/new/top.sv:77]
+INFO: [Synth 8-6157] synthesizing module 'counter__parameterized2' [D:/MyProjects/dachuang/show_time/show_time.srcs/sources_1/new/top.sv:77]
 	Parameter N bound to: 24 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'counter__parameterized2' (0#1) [D:/MyProjects/dachuang/数码管时钟/数码管时钟.srcs/sources_1/new/top.sv:77]
-INFO: [Synth 8-6157] synthesizing module 'display' [D:/MyProjects/dachuang/数码管时钟/数码管时钟.srcs/sources_1/new/top.sv:99]
-INFO: [Synth 8-6155] done synthesizing module 'display' (0#1) [D:/MyProjects/dachuang/数码管时钟/数码管时钟.srcs/sources_1/new/top.sv:99]
-INFO: [Synth 8-6157] synthesizing module 'key_detector' [D:/MyProjects/dachuang/数码管时钟/数码管时钟.srcs/sources_1/new/top.sv:160]
+INFO: [Synth 8-6155] done synthesizing module 'counter__parameterized2' (0#1) [D:/MyProjects/dachuang/show_time/show_time.srcs/sources_1/new/top.sv:77]
+INFO: [Synth 8-6157] synthesizing module 'display' [D:/MyProjects/dachuang/show_time/show_time.srcs/sources_1/new/top.sv:99]
+INFO: [Synth 8-6155] done synthesizing module 'display' (0#1) [D:/MyProjects/dachuang/show_time/show_time.srcs/sources_1/new/top.sv:99]
+INFO: [Synth 8-6157] synthesizing module 'key_detector' [D:/MyProjects/dachuang/show_time/show_time.srcs/sources_1/new/top.sv:160]
 	Parameter N bound to: 250 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'key_detector' (0#1) [D:/MyProjects/dachuang/数码管时钟/数码管时钟.srcs/sources_1/new/top.sv:160]
-INFO: [Synth 8-6155] done synthesizing module 'top' (0#1) [D:/MyProjects/dachuang/数码管时钟/数码管时钟.srcs/sources_1/new/top.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'key_detector' (0#1) [D:/MyProjects/dachuang/show_time/show_time.srcs/sources_1/new/top.sv:160]
+INFO: [Synth 8-6155] done synthesizing module 'top' (0#1) [D:/MyProjects/dachuang/show_time/show_time.srcs/sources_1/new/top.sv:23]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1452.461 ; gain = 661.551
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1451.883 ; gain = 660.910
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1452.461 ; gain = 661.551
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1451.883 ; gain = 660.910
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1452.461 ; gain = 661.551
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1451.883 ; gain = 660.910
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1452.461 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1451.883 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -92,31 +92,31 @@ INFO: [Project 1-236] Implementation specific constraints were found while readi
 Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1530.289 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1529.199 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1530.289 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1529.199 ; gain = 0.000
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1530.289 ; gain = 739.379
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1529.199 ; gain = 738.227
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg400-2
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1530.289 ; gain = 739.379
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1529.199 ; gain = 738.227
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1530.289 ; gain = 739.379
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1529.199 ; gain = 738.227
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1530.289 ; gain = 739.379
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1529.199 ; gain = 738.227
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -160,25 +160,25 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1592.730 ; gain = 801.820
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1599.312 ; gain = 808.340
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1654.957 ; gain = 864.047
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1658.570 ; gain = 867.598
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1656.191 ; gain = 865.281
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1659.852 ; gain = 868.879
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1675.844 ; gain = 884.934
+Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1679.625 ; gain = 888.652
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -196,37 +196,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1914.555 ; gain = 1123.645
+Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1918.125 ; gain = 1127.152
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1914.555 ; gain = 1123.645
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1918.125 ; gain = 1127.152
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1914.555 ; gain = 1123.645
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1918.125 ; gain = 1127.152
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1914.555 ; gain = 1123.645
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1918.125 ; gain = 1127.152
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1914.555 ; gain = 1123.645
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1918.125 ; gain = 1127.152
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1914.555 ; gain = 1123.645
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1918.125 ; gain = 1127.152
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -257,18 +257,18 @@ Report Cell Usage:
 |13    |OBUF   |    14|
 +------+-------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1914.555 ; gain = 1123.645
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1918.125 ; gain = 1127.152
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 1914.555 ; gain = 1045.816
-Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1914.555 ; gain = 1123.645
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 1918.125 ; gain = 1049.836
+Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1918.125 ; gain = 1127.152
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1923.703 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1927.242 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 110 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1927.336 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1930.883 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
@@ -276,8 +276,8 @@ Synth Design complete | Checksum: 90456542
 INFO: [Common 17-83] Releasing license: Synthesis
 43 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:31 . Memory (MB): peak = 1927.336 ; gain = 1366.488
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1927.336 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1930.883 ; gain = 1372.410
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1930.883 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'D:/MyProjects/dachuang/show_time/show_time.runs/synth_1/top.dcp' has been generated.
 INFO: [Vivado 12-24828] Executing command : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Thu Jan 15 15:12:41 2026...
+INFO: [Common 17-206] Exiting Vivado at Thu Jan 15 15:40:31 2026...

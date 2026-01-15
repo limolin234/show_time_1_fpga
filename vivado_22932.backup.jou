@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Thu Jan 15 15:29:18 2026
+# Process ID         : 22932
+# Current directory  : D:/MyProjects/dachuang/show_time
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent10032 D:\MyProjects\dachuang\show_time\show_time.xpr
+# Log file           : D:/MyProjects/dachuang/show_time/vivado.log
+# Journal file       : D:/MyProjects/dachuang/show_time\vivado.jou
+# Running On         : LML
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 7 7700 8-Core Processor              
+# CPU Frequency      : 3793 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 33394 MB
+# Swap memory        : 21474 MB
+# Total Virtual      : 54869 MB
+# Available Virtual  : 33957 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/MyProjects/dachuang/show_time/show_time.xpr
+update_compile_order -fileset sources_1

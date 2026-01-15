@@ -56,13 +56,7 @@ if {$::dispatch::connected} {
 }
 
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param checkpoint.writeSynthRtdsInDcp 1
 set_param general.usePosixSpawnForFork 1
-set_param chipscope.maxJobs 4
-set_param synth.incrementalSynthesisCache C:/Users/limolin/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-3240-LML/incrSyn
-set_param xicom.use_bs_reader 1
-set_msg_config -id {Synth 8-256} -limit 10000
-set_msg_config -id {Synth 8-638} -limit 10000
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7z020clg400-2
 
@@ -77,7 +71,7 @@ set_property ip_output_repo d:/MyProjects/dachuang/show_time/show_time.cache/ip 
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_verilog -library xil_defaultlib -sv D:/MyProjects/dachuang/数码管时钟/数码管时钟.srcs/sources_1/new/top.sv
+read_verilog -library xil_defaultlib -sv D:/MyProjects/dachuang/show_time/show_time.srcs/sources_1/new/top.sv
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
